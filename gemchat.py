@@ -9,7 +9,7 @@ st.set_page_config(page_title="Gemini Chatbot")
 st.title("_:blue[Gemini]_ Chatbot Clone")
 
 # Configure Generative AI API key
-genai.configure(api_key='AIzaSyAve7zI6EJ1aUSGcyqoD3APuCvo1Pquygc')
+genai.configure(api_key='YOUR_API_KEY')
 
 # Function to load Gemini Pro model and get response
 model = genai.GenerativeModel("gemini-pro")
