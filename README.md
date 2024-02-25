@@ -7,3 +7,13 @@ Collaborators:
 [Atheek](https://github.com/atheek2003)
 [Samrudh](https://github.com/bcsamrudh)
 
+## Requirements:
+```bash
+pip install streamlit
+pip install google-generativeai
+```
+
+## Usage:
+```bash
+streamlit run gemchat.py
+```
